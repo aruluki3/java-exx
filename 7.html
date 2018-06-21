@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+  </head>
+  <body>
+    <p id= "demo"></p>
+    <script>
+var person = {firstName:"Nimal", lastName:"raj", age:10, city:"kandy"}
+
+var x = person;
+x.age = 15;
+
+document.getElementById("demo").innerHTML =
+"my name is" + person.firstName + person.lastName + "iam" + x.age + "years old" + "live in" + person.city;
+</script>
+  </body>
+</html>
